@@ -238,6 +238,12 @@ body{
     padding-left: 2.5%;
 }
 
+@media screen and (max-width: 750px) {
+    .project-desc {
+        height: 100%;
+    }
+}
+
 .project-desc h2 {
     font-family: roboto-condensed, sans-serif;
     font-size: 20px;
