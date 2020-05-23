@@ -1,5 +1,9 @@
 @import url("https://use.typekit.net/pha5hoh.css");
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
