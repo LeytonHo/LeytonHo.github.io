@@ -61,6 +61,8 @@ body{
     .intro {
       margin-top: 2%;
       flex-direction: column;
+      top: 50%;
+      left: 40%;
     }
 }
 
@@ -88,6 +90,14 @@ body{
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #desc {
+      margin-right: auto;
+      margin-left: auto;
+    }
 }
 
 #hello, h1 {
@@ -99,6 +109,13 @@ body{
     letter-spacing: 4px;
     min-width: 400px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    #hello, h1 {
+      min-width: 0px;
+      margin-block-end: 0em;
+    }
 }
 
 #headshot {
